@@ -18,6 +18,7 @@
 .container {
     display: flex;
     align-items: center;
+    z-index: 3;
 }
 
 .container__imagem {
@@ -38,7 +39,7 @@
 .lista-menu__titulo,
 .lista-menu__item {
     padding: 1em;
-    background-color: var(--branco);
+    background-color: var(--escuro);
 }
 
 .lista-menu__titulo {
